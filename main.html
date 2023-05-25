@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TLOZ</title>
+	<style>
+		
+		nav {
+			background-color: #3cb371;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			padding: 10px;
+		}
+
+		nav ul {
+			display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav ul li {
+			margin-right: 10px;
+		}
+		
+		nav ul li:hover {
+			margin-right: 10px;
+			background-color:black;
+			
+		}
+		
+		nav ul li a {
+			color: #000;
+			text-decoration: none;
+			padding: 5px;
+		}
+
+		/* Estilos para el banner */
+		header {
+			background-image: url('title.png');
+			background-size: cover;
+			height: 300px;
+			background-repeat: no-repeat;
+		}
+
+		.banner-text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			color: #000;
+			text-align: center;
+		}
+
+		.banner-text h1 {
+			font-size: 3rem;
+			margin-bottom: 0;
+		}
+
+		.banner-text p {
+			font-size: 1.5rem;
+			margin-top: 0;
+		}
+		
+		body {
+		background-image: url('totk-material-1_basecolor.webp');
+		background-repeat: repeat;
+		}
+		iframe{
+		border: 2px solid #333;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+		
+		}
+		section.video{
+		display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+	</style>
+</head>
+<body>
+	<header>
+		<div class="banner-text">
+			<h1></h1>
+				<p></p>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="/index.html">Inicio</a></li>
+			<li><a href="/historia.html">Historia</a></li>
+			<li><a href="/mecanicas.html">Mecanicas</a></li>
+			<li><a href="/detalles.html">Detalles</a></li>
+		</ul>
+		<form action="#">
+			<input type="text" placeholder="Buscar...">
+			<button type="submit">Buscar</button>
+		</form>
+	</nav>
+	<main>
+		<p>¿Qué es esto?
+		<br>
+			<p>
+			Es una serie de videojuegos de acción-aventura creada por los diseñadores japoneses Shigeru Miyamoto y Takashi Tezuka,​ y desarrollada por Nintendo.
+			Su trama por lo general describe las heroicas aventuras del joven guerrero Link, que debe enfrentarse a peligros y resolver acertijos para ayudar a la Princesa Zelda a derrotar a Ganondorf y salvar su hogar, el reino de Hyrule.
+			</p>
+			<h2>Aquí os dejamos los trailers de la última entrega de la saga...</h2>
+			<section class="video">
+      
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/30DPu43_Uko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+		<br>
+		</p>
+	</main>
+</body>
+</html>
